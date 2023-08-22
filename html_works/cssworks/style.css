@@ -1,0 +1,57 @@
+/*
+TAG SELCTOR
+
+tagname|class|id{
+    property:value;
+    property:value;
+
+}
+
+*/
+
+body{
+    background-color: black;
+}
+h1{
+    color: wheat;
+    text-decoration: underline;
+}
+a{
+    color: white;text-decoration: none;
+}
+
+/*
+idselector
+
+#id
+| - property:value;
+|
+} */
+
+/* #id_tag{
+    color: aquamarine;
+}
+#offer_link{
+    color: red;
+} */
+
+/* 
+class 
+use . 
+*/
+
+.heading{
+    color: white;
+    text-decoration: underline;
+}
+
+.heading_success{
+    color: green;
+}
+
+.card{
+    color: black;
+    background-color: aquamarine;
+    width: 30%;
+    height: 300px;
+}

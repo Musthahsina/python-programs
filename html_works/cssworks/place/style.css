@@ -1,0 +1,20 @@
+body{
+    margin: 1;
+}
+
+.row {
+    width: 100%;
+    height: 300px;
+    background-color: bisque;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.col {
+    width: 30%;
+    height: 200px;
+    border: 1px solid white;
+    background-color: aqua;
+    float: left;
+    margin-top: 20px;
+    margin-left: 38px;
+}

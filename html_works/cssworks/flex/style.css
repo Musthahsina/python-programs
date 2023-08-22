@@ -1,0 +1,35 @@
+.container {
+    background-color: pink;
+    height: 400px;
+    display: flex;
+    text-align: center;
+    /* flex-direction: row-reverse; */
+    flex-direction: row;
+    /* justify-content:space-around; */
+    justify-content: space-evenly;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+    width: 100%;
+    height: 100px;
+    filter: contrast(1);
+    /* background-color: orange; */
+
+}
+
+/* .three{
+    flex: 1;
+} */
+
+/* justify-conent - to place horizontally
+space-around -> gives space around
+space-evenly -> gives space evenly
+*/

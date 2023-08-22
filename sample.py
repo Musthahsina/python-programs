@@ -1,0 +1,10 @@
+print("Name:", "Musthahsina")
+print("Age:", 25)
+print("Qualification:", "MCA")
+print("course", "python")
+print('adress:', 'ab')
+
+name = input('enter the name:')
+print(type(name))
+age = int(input("enter the age:"))
+print(type(age))

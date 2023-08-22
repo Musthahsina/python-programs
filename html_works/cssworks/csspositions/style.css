@@ -1,0 +1,41 @@
+.row {
+    width: 50%;
+    background-color: aquamarine;
+    border: 1px solid black;
+    height: 300px;
+    margin-left: 100px;
+    position: relative;
+}
+
+.col {
+    width: 20%;
+    height: 200px;
+    border: 1px solid white;
+}
+
+/* Pseudo-element */
+
+.col:nth-child(1) {
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+}
+
+.col:nth-child(2) {
+    background-color: chocolate;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.fixed{
+    position: fixed;
+    top: 200px;
+    right: 0;
+}
+
+.sticky{
+    position: sticky;
+    border: 1px solid blue;
+    top: 150px;
+}
